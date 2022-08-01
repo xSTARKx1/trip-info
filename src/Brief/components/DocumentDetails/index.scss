@@ -1,0 +1,19 @@
+.link-wrapper {
+  padding: 20px 0 10px;
+
+  .document-link {
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    background-color: #9f9e9e;
+    padding: 6px 40px;
+    border: 2px solid #9f9e9e;
+    border-radius: 2px;
+    transition: background-color .3s, color .3s;
+  }
+  .document-link:hover, .document-link:focus {
+    background-color: transparent;
+    color: #ffffff;
+  }
+}
